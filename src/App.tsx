@@ -1,9 +1,9 @@
-function App() {
+import GithubLogo from "./components/GithubLogo";
+
+function App(): JSX.Element {
   return (
     <>
-      <div>
-        <h1>Hello World</h1>
-      </div>
+      <GithubLogo />
     </>
   );
 }
